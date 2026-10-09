@@ -1,0 +1,5 @@
+type,indicator,source,description
+Email Address,security-alert@microsoft365-security.example,Sender,Email address associated with the sender
+Email Address,account-verification@microsoft365-security.example,Reply-To,Email address specified in Reply-To header
+URL,https://login.microsoft365-security.example/verify?session=847291,Email Body,URL extracted from phishing email
+Domain,login.microsoft365-security.example,URL,Domain associated with extracted URL
